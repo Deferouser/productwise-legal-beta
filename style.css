@@ -263,3 +263,16 @@ footer {
     max-height: none;
   }
 }
+
+/* Custom white text styling overrides */
+.text-hero-subtitle, .text-read-indicator, .text-agreement-title {
+  color: #ffffff !important;
+  transition: var(--transition-smooth);
+}
+
+body.light-theme .text-hero-subtitle,
+body.light-theme .text-read-indicator,
+body.light-theme .text-agreement-title {
+  color: var(--text-muted) !important;
+}
+
