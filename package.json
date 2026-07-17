@@ -1,0 +1,17 @@
+{
+  "name": "productwise-legal-beta",
+  "version": "1.0.0",
+  "description": "Beta Tester Agreement Portal for Product Wise",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000"
+  },
+  "keywords": [
+    "productwise",
+    "legal",
+    "agreement",
+    "beta"
+  ],
+  "author": "Defero Limited",
+  "license": "UNLICENSED"
+}
