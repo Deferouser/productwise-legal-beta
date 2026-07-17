@@ -1,31 +1,24 @@
 # Product Wise Beta Tester Agreement Portal
 
-An interactive, premium single-page agreement portal for Defero Limited's pre-release beta program for the **Product Wise** application. 
+A premium, interactive single-page agreement viewer for Defero Limited's pre-release beta program for the **Product Wise** application. 
 
-This portal has been built from scratch using **Bootstrap 5**, custom CSS variables, and modern canvas drawing scripts, optimized for instant, clean deployment on **GitHub Pages**.
+This portal has been built from scratch using **Bootstrap 5** and custom CSS variables, optimized for instant, clean deployment on **GitHub Pages**.
 
 ---
 
 ## 🌟 Key Features
 
-1. **Document Scroll-Spy & Reading Progress**:
-   - The user must scroll through and read at least 90% of the agreement before the consent checkbox and submission forms are activated.
-   - Built-in Scrollspy navigation sidebar lets the tester jump to sections (Introduction, Confidentiality, Governing Law, etc.) easily.
-   
-2. **Flexible Signature Input**:
-   - **Draw Signature**: Interactive canvas signature sketching pad for drawing with mouse, trackpad, or touch devices.
-   - **Type Signature**: A handwriting input field styling the tester's signature dynamically in elegant script fonts.
+1. **Scrollspy Navigation & Reading Progress**:
+   - Outlines the complete 9 sections of the agreement.
+   - Built-in Scrollspy navigation sidebar lets the tester jump to sections (Obligations, Confidentiality, Governing Law, etc.) easily.
+   - Live reading percentage progress bar at the top of the agreement.
 
-3. **Live Certificate Preview**:
-   - A sticky, modern compliance certificate card that updates in real-time as the tester types their name, email, selects their signature type, and logs the current signing timestamp.
-   - Generates a simulated secure cryptographic fingerprint signature identifier.
-
-4. **Contributor Tier & Rewards Simulator**:
-   - Section 3 of the agreement specifies that testers who submit at least 10 verified price reports achieve "Contributor Status" and earn "GiftMe" points.
-   - A live range slider allows testers to simulate reports and witness their status upgrade from "Beta Tester" to "Contributor", animating the points wallet updates and GiftMe rewards eligibility.
-
-5. **Sleek Light/Dark Mode Toggle**:
+2. **Sleek Light/Dark Mode Toggle**:
    - Fully customizable color styling built on custom HSL CSS variables, offering smooth theme transitions.
+
+3. **Responsive Glassmorphism Styling**:
+   - Modern borders, glows, and custom typography (*Plus Jakarta Sans*).
+   - Fully responsive layout for desktop, tablet, and mobile browsers.
 
 ---
 
@@ -38,7 +31,7 @@ This project is a static site (using relative asset paths) designed specifically
    - Stage, commit, and push your branch:
      ```bash
      git add .
-     git commit -m "Initialize Beta Tester Agreement Portal"
+     git commit -m "Configure simplified Beta Tester Agreement"
      git branch -M main
      git push -u origin main
      ```
@@ -55,7 +48,6 @@ This project is a static site (using relative asset paths) designed specifically
 3. **Visit Your Portal**:
    - Within 1–2 minutes, GitHub will build the site. A URL will be displayed in the **Pages** settings panel, typically formatted as:
      `https://<github-username>.github.io/<repository-name>/`
-   - You can copy this URL and share it with your beta testers to sign!
 
 ---
 
@@ -63,5 +55,5 @@ This project is a static site (using relative asset paths) designed specifically
 
 - **Framework**: Bootstrap 5 (CSS & JS Components via fast CDN)
 - **Icons**: Bootstrap Icons CDN
-- **Fonts**: Google Fonts (*Plus Jakarta Sans* for headings/body, *Caveat*, *Alex Brush*, and *Great Vibes* for script signatures)
-- **Scripting & Styling**: Vanilla HTML5, CSS3, and ES6 Javascript (No compilation required, ensuring 100% Page speed score on static CDNs)
+- **Fonts**: Google Fonts (*Plus Jakarta Sans*)
+- **Scripting & Styling**: Vanilla HTML5, CSS3, and ES6 Javascript
